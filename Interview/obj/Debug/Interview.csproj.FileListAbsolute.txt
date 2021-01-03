@@ -1,0 +1,7 @@
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\obj\Debug\Interview.csprojAssemblyReference.cache
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\bin\Debug\Interview.exe.config
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\bin\Debug\Interview.exe
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\bin\Debug\Interview.pdb
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\obj\Debug\Interview.exe
+C:\Users\Itay Cohen\Desktop\Projects\InterviewQuestions\Interview\obj\Debug\Interview.pdb
