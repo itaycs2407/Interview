@@ -2,7 +2,7 @@
 namespace Interview
 {
     public class Node
-    {
+    {/*
         public override string ToString()
         {
             Node runner = new Node(this);
@@ -15,6 +15,7 @@ namespace Interview
 
             return string.Empty;
         }
+        */
         public int data;
         public Node next;
         public Node()
