@@ -1,6 +1,5 @@
 ﻿using Interview;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +10,8 @@ namespace Interview
     {
         static void Main(string[] args)
         {
-            # region LinkedList
+            #region LinkedList
+            /*
                 Node n1 = null;
                 Node n2 = new Node(5, n1);
                 Node n3 = new Node(4, n2);
@@ -36,7 +36,7 @@ namespace Interview
             // Console.WriteLine(LinkedListQuestion.reveresList(n6));
             // Console.WriteLine(LinkedListQuestion.partionList(n7,5));
             //Console.WriteLine(LinkedListQuestion.intersection(n7,n10));
-            Console.WriteLine(LinkedListQuestion.getCircleStart(n6));
+            Console.WriteLine(LinkedListQuestion.getCircleStart(n6));*/
             #endregion
             #region String
             // Console.WriteLine(StringQuestion.stringCompression("aaabbccccccvfffg"));
@@ -47,11 +47,29 @@ namespace Interview
             // Console.WriteLine(StringQuestion.oneAway("apple", "aplh"));
             #endregion
             #region Mathematics
-                // Console.WriteLine(mathematics.findNextSqure(15241383936));
+            // Console.WriteLine(mathematics.findNextSqure(15241383936));
+            // Console.WriteLine(Mathematics.withoutConsecutiveOnes(5));
             #endregion
-
+            #region Stacks
+            /*
+                superStack s = new superStack();
+                s.Push(5);
+                s.Push(4);
+                Console.WriteLine(s.Min().ToString());
+                s.Push(3);
+                s.Push(1);
+                s.Push(8);
+                Console.WriteLine(s.Min().ToString());
+                s.Push(2);
+                s.Push(0);
+                Console.WriteLine(s.Min().ToString());
+                s.Pop();
+                Console.WriteLine(s.Min().ToString());
+            */
+            #endregion
 
             Console.ReadLine();
         }
     }
+
 }
