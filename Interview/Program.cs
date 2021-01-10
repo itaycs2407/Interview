@@ -1,6 +1,6 @@
 ﻿using Interview;
 using System;
-using System.Linq;
+using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -52,6 +52,7 @@ namespace Interview
             #endregion
             #region Stacks
             /*
+             
                 superStack s = new superStack();
                 s.Push(5);
                 s.Push(4);
@@ -65,11 +66,34 @@ namespace Interview
                 Console.WriteLine(s.Min().ToString());
                 s.Pop();
                 Console.WriteLine(s.Min().ToString());
+            *//*
+            PlateStack ps = new PlateStack(3);
+            ps.Push(5);
+            ps.Push(4);
+            Console.WriteLine(ps.WhereMyPosition());
+            ps.Push(3);
+            ps.Push(1);
+            Console.WriteLine(ps.WhereMyPosition());
+            ps.Push(8);
+            ps.Push(2);
+            ps.Push(0);
+            Console.WriteLine(ps.WhereMyPosition());
+            ps.Pop();
+            Console.WriteLine(ps.WhereMyPosition());*/
+            /*
+            Stack<int> st = new Stack<int>();
+            st.Push(9);
+            st.Push(2);
+            st.Push(4);
+            st.Push(1);
+            st.Push(0);
+            Console.WriteLine(StackQuestion.SortStack(st));
             */
             #endregion
-
+            
             Console.ReadLine();
         }
     }
+
 
 }
